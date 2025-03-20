@@ -1,0 +1,32 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.recipeList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipeItem {
+  margin: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.recipeItem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
